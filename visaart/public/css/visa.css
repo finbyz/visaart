@@ -1,0 +1,20 @@
+.page-container[style="display: none;"] .page-head,
+.page-container[data-state="clean"] .page-head,
+.page-container[data-state="dirty"] .page-head,
+body[data-sidebar="0"] .page-head,
+.page-container[style="display: block;"] .page-head{
+    height: 60px;
+}
+body[data-sidebar="0"] .editable-form .page-head{
+    height: 47px !important;
+}
+body[data-sidebar="0"] .editable-form .page-content{
+    margin-top: 47px ;
+}
+.page-container[style="display: none;"] .page-content,
+.page-container[data-state="clean"] .page-content,
+.page-container[style="display: block;"] .page-content,
+body[data-sidebar="1"] .editable-form .page-content,
+body[data-sidebar="0"] .page-content{
+    margin-top: 55px;
+}

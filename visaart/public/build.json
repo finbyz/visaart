@@ -1,0 +1,10 @@
+{
+	"css/visa.min.css": [
+		"public/css/visa.css"
+	],
+	"js/visa.min.js": [
+		"public/js/frappe/ui/page.html",
+		"public/js/frappe/ui/page.js",
+		"public/js/frappe/ui/toolbar.js"
+    ]
+}

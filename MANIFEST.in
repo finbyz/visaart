@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include visaart *.css
+recursive-include visaart *.csv
+recursive-include visaart *.html
+recursive-include visaart *.ico
+recursive-include visaart *.js
+recursive-include visaart *.json
+recursive-include visaart *.md
+recursive-include visaart *.png
+recursive-include visaart *.py
+recursive-include visaart *.svg
+recursive-include visaart *.txt
+recursive-exclude visaart *.pyc
